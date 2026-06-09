@@ -1,6 +1,9 @@
-# REG1-RP2040-SX1276-1x
+# REG1-RP2040-SX1276-868MHz
 
 LoRa-Funkerweiterung (Semtech **SX1276**) für den **OpenKNX RP2040 REG1**-Controller.
+
+<img width="1295" height="747" alt="image" src="https://github.com/user-attachments/assets/483c52b6-84d6-4bdb-94d1-1f282a213a68" />
+
 
 Das Add-on bindet ein **SX1276-Funkmodul** per **SPI** an den RP2040 an und führt die
 Antenne auf eine **SMA-Buchse**. Damit lässt sich ein REG1-Gerät um LoRa-Funk

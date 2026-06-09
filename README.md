@@ -6,12 +6,6 @@ Das Add-on bindet ein **SX1276-Funkmodul** per **SPI** an den RP2040 an und füh
 Antenne auf eine **SMA-Buchse**. Damit lässt sich ein REG1-Gerät um LoRa-Funk
 (z. B. 433 / 868 / 915 MHz) erweitern.
 
-> **⚠️ Nur für den RP2040 REG1-Controller!**
-> Dieses Add-on ist **für den OpenKNX RP2040 REG1-Controller** konzipiert und getestet.
-> Die Pinbelegung folgt dessen Stecker **J107** und nutzt die **Hardware-SPI1** des
-> RP2040 (GPIO26–29). Für den **ESP REG1-Controller** ist es **nicht vorgesehen/getestet**
-> – dort liegen andere GPIOs/Peripherie hinter dem Stecker.
-
 ---
 
 ## Funktion
@@ -103,28 +97,4 @@ Version **V0.1** – in Entwicklung.
 Hardware-Design © **4R3Ngineering**.
 Veröffentlicht als Open-Source-Hardware-Add-on für das [OpenKNX](https://github.com/OpenKNX)-Ökosystem.
 
-Lizenziert unter der **MIT-Lizenz** – siehe [`LICENSE`](LICENSE).
-
-```
-MIT License
-
-Copyright (c) 2026 4R3Ngineering
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
+Lizenziert unter der **CERN-OHL-S v2** (CERN Open Hardware Licence Version 2 – Strongly Reciprocal) – siehe [`LICENSE`](LICENSE).
